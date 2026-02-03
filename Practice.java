@@ -29,6 +29,44 @@ public class Practice{
         String store = list.set(2, "Mary");
         String store2 = list.get(3);
         String store3 = list.remove(1);
-    }
-    
+        int s = list.size();
+
+
+
+        ArrayList<String> names = new ArrayList <String> (); //ArrayList used names get[i]
+        names.add("albert");
+        names.add("dabigstein");
+        names.add("da'yahu");
+        int index = 0;
+        for(int in = 0; i < names.size(); in++){
+
+            names.get(in);
+        }
+        System.out.println(names);
+        
+
+        while ( index < names.size()){
+
+            
+
+            if(names.get(index).substring(0,1).equals("d")){
+                names.set(index, "oooogre");
+            }
+
+            index++;
+
+        }
+
+        System.out.println(names);
+
+
+
+
+
+
 }
+
+
+
+
+    }
