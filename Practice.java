@@ -59,7 +59,17 @@ public class Practice{
 
         System.out.println(names);
 
+        for(int in = 0; in < names.size(); in++){
 
+            if(names.get(in).indexOf("oooogre") >= 0){
+                names.remove(in);
+            }
+
+            }
+            System.out.println(names);
+        }
+        
+        
 
 
 
@@ -68,5 +78,3 @@ public class Practice{
 
 
 
-
-    }
