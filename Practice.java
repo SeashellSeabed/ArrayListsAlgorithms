@@ -67,6 +67,22 @@ public class Practice{
 
             }
             System.out.println(names);
+
+                ArrayList <String> students = new ArrayList ();
+                students.add("Bob");
+                students.add("yahu");
+                students.add("elmu");
+                students.add("dutu");
+                students.add("buba");
+                students.add("bibi");
+                students.add("Bob");
+            for(int ix = students.size()-1; ix > 0; i--){
+                if(students.get(ix).indexOf("Bob") >= 0){
+
+                    students.remove(ix);
+                }
+                }
+            
         }
         
         
